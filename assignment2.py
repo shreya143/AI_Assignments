@@ -1,9 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Jun  5 12:55:39 2019
 
-@author: Intel
-"""
+answer = [65]
+guess = [17,16,10]
+
+if guess>answer:
+    print("guess is too high")
+else:
+    print("guess is too low")
+
 
 #ASSIGNMENT 2
 
@@ -23,5 +26,3 @@ for i in range(1,30):
         
         
 
-
-              
